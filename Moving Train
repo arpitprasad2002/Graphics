@@ -14,7 +14,7 @@ main()
     {
     	cleardevice();
 
-   		//for track
+   	//for track
    		line(0,450,640,450);
    		line(0,475,640,475);
    		for(int a=4; a<640;)
@@ -23,128 +23,127 @@ main()
    			a = a +  12;
 		}
 	
-   		//for back
+   	//for back
    		rectangle(30+i,340,180+i,350);
    		rectangle(40+i,350,170+i,425);
 
     	//for back wheels
-    	circle(70+i,437,12);
-    	circle(140+i,437,12);
+    		circle(70+i,437,12);
+   	 	circle(140+i,437,12);
 		
 		
 		
 		
     	//for back incircle
-    	circle(70+i,437,8);
-    	circle(140+i,437,8);
-    	rectangle(70+i,435,140+i,439);
+    		circle(70+i,437,8);
+    		circle(140+i,437,8);
+    		rectangle(70+i,435,140+i,439);
 
     	//for back windows
-    	rectangle(55+i,365,155+i,400);
-    	line(83+i,365,83+i,400);
-    	line(122+i,365,122+i,400);
+    		rectangle(55+i,365,155+i,400);
+    		line(83+i,365,83+i,400);
+    		line(122+i,365,122+i,400);
 		
-		//for join
-    	rectangle(170+i,390,210+i,400);
+	//for join
+    		rectangle(170+i,390,210+i,400);
 
     	//for engine
-    	rectangle(200+i,320,260+i,330);
-    	rectangle(210+i,330,250+i,425);
+    		rectangle(200+i,320,260+i,330);
+    		rectangle(210+i,330,250+i,425);
    		rectangle(250+i,360,345+i,405);
    		rectangle(345+i,345,360+i,415);
-    	rectangle(325+i,315,335+i,360);
-    	rectangle(310+i,305,350+i,315);
+    		rectangle(325+i,315,335+i,360);
+    		rectangle(310+i,305,350+i,315);
 	
-		//engine window
+	//engine window
 		rectangle(222+i,345,238+i,410);
 		circle(276.23+i,382.5,15);
 		circle(318.74+i,382.5,15);
 	
-		//engine back wheels
+	//engine back wheels
 		circle(230+i,437,12);
 		circle(230+i,437,8);
 	
-		//engine front wheels
+	//engine front wheels
 		circle(318+i,427,22);
 		circle(318+i,427,14);
 	
 	
-		//Engine tires joint
+	//Engine tires joint
 		line(227+i,437,315+i,427);
 		line(233+i,437,321+i,427);
 	
 
     	//for hills
-    	line(0,200,90,150);
-    	line(90,150,180,200);
-    	line(180,200,310,100);
-    	line(310,100,430,175);
-    	line(430,175,550,115);
-    	line(550,115,640,170);
+    		line(0,200,90,150);
+    		line(90,150,180,200);
+    		line(180,200,310,100);
+    		line(310,100,430,175);
+    		line(430,175,550,115);
+    		line(550,115,640,170);
     	
     	//for moon
-    	circle(180,75,25); 
-    	setcolor(WHITE);
-    	setfillstyle(SOLID_FILL, WHITE);
+    		circle(180,75,25); 
+    		setcolor(WHITE);
+    		setfillstyle(SOLID_FILL, WHITE);
 		floodfill(180, 75, WHITE);
 		
 		
-		//for tree  
+	//for tree  
 		
 		//1st Tree
-		line(95,260,95,295);
-		line(122,260,122,295);
-		line(95,295,121,295);
-		line(70,260,150,260);
-		line(70,260,90,230);
-		line(90,230,70,230);
-		line(70,230,90,200);
-		line(90,200,70,200);
-		line(70,200,110,170);
-		line(150,260,130,230);
-		line(130,230,150,230);
-		line(150,230,130,200);
-		line(130,200,150,200);
-		line(150,200,110,170);
+			line(95,260,95,295);
+			line(122,260,122,295);
+			line(95,295,121,295);
+			line(70,260,150,260);
+			line(70,260,90,230);
+			line(90,230,70,230);
+			line(70,230,90,200);
+			line(90,200,70,200);
+			line(70,200,110,170);
+			line(150,260,130,230);
+			line(130,230,150,230);
+			line(150,230,130,200);
+			line(130,200,150,200);
+			line(150,200,110,170);
 		
 		//1st tree color
-		setfillstyle(1,6);
-		floodfill(96,261,WHITE);
-		setfillstyle(1,2);
-		floodfill(91,231,WHITE);
+			setfillstyle(1,6);
+			floodfill(96,261,WHITE);
+			setfillstyle(1,2);
+			floodfill(91,231,WHITE);
 		
 		//2nd Tree
-		line(505,240,505,295);
-		line(532,240,532,295);
-		line(505,295,531,295);
-		line(480,240,560,240);
-		line(480,240,500,210);
-		line(500,210,480,210);
-		line(480,210,500,180);
-		line(500,180,480,180);
-		line(480,180,520,150);
-		line(560,240,540,210);
-		line(540,210,560,210);
-		line(560,210,540,180);
-		line(540,180,560,180);
-		line(560,180,520,150);
+			line(505,240,505,295);
+			line(532,240,532,295);
+			line(505,295,531,295);
+			line(480,240,560,240);
+			line(480,240,500,210);
+			line(500,210,480,210);
+			line(480,210,500,180);
+			line(500,180,480,180);
+			line(480,180,520,150);
+			line(560,240,540,210);
+			line(540,210,560,210);
+			line(560,210,540,180);
+			line(540,180,560,180);
+			line(560,180,520,150);
 		
 		//2nd tree color
+			setfillstyle(1,6);
+			floodfill(506,241,WHITE);
+			setfillstyle(1,2);
+			floodfill(501,211,WHITE);
 		
-		setfillstyle(1,6);
-		floodfill(506,241,WHITE);
-		setfillstyle(1,2);
-		floodfill(501,211,WHITE);
-		
-		//for background color
+	//for background color
 		//sky
-		setfillstyle(4,1);
-		floodfill(1,1,WHITE );
+			setfillstyle(4,1);
+			floodfill(1,1,WHITE );
 		//land
-		setfillstyle(1,14);
-		floodfill(28,339,WHITE );
+			setfillstyle(1,14);
+			floodfill(28,339,WHITE );
     	
-		delay(25);
+	delay(25);
     }
     getch();
     closegraph();
