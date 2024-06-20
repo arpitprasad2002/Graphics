@@ -1,0 +1,1 @@
+Moving train is a computer graphics (CG) project developed in C++. In this project, a moving train is shown. The main idea behind this project is to display the motion of the train using graphics library. This project demonstrates the scene in which the train is moving from left to right at night. The train will move at a consistent speed until it reaches the end.
